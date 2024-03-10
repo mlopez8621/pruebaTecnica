@@ -3,25 +3,25 @@ package com.nttdata.pruebaTecnica.model;
 import io.swagger.annotations.ApiModelProperty;
 
 public class Cliente {
-    @ApiModelProperty(value = "El primer nombre del cliente", example = "Juan")
+    @ApiModelProperty(value = "El primer nombre del cliente", example = "Sergio")
     private String primerNombre;
 
-    @ApiModelProperty(value = "El segundo nombre del cliente", example = "Pablo")
+    @ApiModelProperty(value = "El segundo nombre del cliente", example = "Alejandro")
     private String segundoNombre;
 
-    @ApiModelProperty(value = "El primer apellido del cliente", example = "Pérez")
+    @ApiModelProperty(value = "El primer apellido del cliente", example = "López")
     private String primerApellido;
 
-    @ApiModelProperty(value = "El segundo apellido del cliente", example = "López")
+    @ApiModelProperty(value = "El segundo apellido del cliente", example = "Espinosa")
     private String segundoApellido;
 
-    @ApiModelProperty(value = "El teléfono del cliente", example = "123456789")
+    @ApiModelProperty(value = "El teléfono del cliente", example = "3041454977")
     private String telefono;
 
-    @ApiModelProperty(value = "La dirección del cliente", example = "Calle Falsa 123")
+    @ApiModelProperty(value = "La dirección del cliente", example = "Cr 37b sur No 9 - 03")
     private String direccion;
 
-    @ApiModelProperty(value = "La ciudad de residencia del cliente", example = "Springfield")
+    @ApiModelProperty(value = "La ciudad de residencia del cliente", example = "Bogotá-Colombia")
     private String ciudadResidencia;
 
     public Cliente(String primerNombre, String segundoNombre, String primerApellido,

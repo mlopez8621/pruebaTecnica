@@ -22,7 +22,7 @@ public class ClienteController {
                     examples = @Example(value = {
                             @ExampleProperty(
                                     mediaType = "application/json",
-                                    value = "{\"primerNombre\": \"Juan\", \"segundoNombre\": \"Pablo\", \"primerApellido\": \"Pérez\", \"segundoApellido\": \"López\", \"telefono\": \"123456789\", \"direccion\": \"Calle Falsa 123\", \"ciudadResidencia\": \"Springfield\"}"
+                                    value = "{\"primerNombre\": \"Sergio\", \"segundoNombre\": \"Alejandro\", \"primerApellido\": \"López\", \"segundoApellido\": \"Espinosa\", \"telefono\": \"3041454977\", \"direccion\": \"Cr 37b sur No 9 - 03\", \"ciudadResidencia\": \"Bogotá-Colombia\"}"
                             )
                     })
             ),
